@@ -45,7 +45,7 @@ Then we set up the VM
 crc setup
 ```
 
-Once created, we can decide to run crc with the default parameters, among which we also find the DNS server to be used, via the `--nameserver <address>` parameter. We should take these parameters into account in case we can no longer start the VM.
+Once created, we can decide to run `crc start` with the default parameters, among which we also find the DNS server to be used, via the `--nameserver <address>` parameter. We should take these parameters into account in case we can no longer start the VM.
 
 ##  2. <a name='SetupSSHkeypermissionsproperlyserverside'></a>Setup SSH key permissions properly (server side)
 Once CRC is installed, let's give tighter permissions to the private key used to access the VM created by CRC: with Windows File Explorer, head to the CRC installation path `C:\Users\%USERNAME%\.crc`, after which we find the private key at `machines\crc\id_ecdsa`; Right-click on it, Properties, Security, Advanced, Permissions; remove from the list all the entries other than that of the currently logged in user, then click on OK, and again click on OK.
