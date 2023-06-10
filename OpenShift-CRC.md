@@ -204,7 +204,7 @@ The initial goal was achieved.
 
 ##  5. <a name='Improvementsclientside'></a>Improvements (client side)
 
-If we wanted to avoid a root-user approach and, in addition, wanted to try to buffer the problems of FortiClient VPN defectively, we could take a cue from the following article: https://www.stevenrombauts.be/2019/06/restart-dnsmasq-without-sudo/
+If we wanted to avoid a root-user approach and, in addition, wanted to try to solve the problems of FortiClient VPN in a more automatic manner, we could take inspiration from the following article: https://www.stevenrombauts.be/2019/06/restart-dnsmasq-without-sudo/
 
 Other useful links:
 - [CRC tool](https://github.com/crc-org/crc)
