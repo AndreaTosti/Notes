@@ -4,7 +4,7 @@ Scenario:
 - server: backed by Windows 10 Enterprise LTSC Build 19044 / Ryzen 5 5600U 6-core, 40GB RAM, 512GB SSD NVME, Hyper-V enabled
 - client: MacOS Ventura 13 with several VPN clients to take into account (...)
 
-**Final goal**: install On-Premise OpenShift and be able to use OpenShift from the client, either via command-line (`oc`, `kubectl`) or via browser (at https://console-openshift-console.apps-crc.testing/)
+**Final goal**: install On-Premise OpenShift and be able to use OpenShift from the client (**that is hosted on another computer, but in the same LAN**), either via command-line (`oc`, `kubectl`) or via browser (at https://console-openshift-console.apps-crc.testing/)
 
 Each of the sub-sections refers to either the client or the server, so note the title, e.g. "Install CRC (**server side**)".
 
