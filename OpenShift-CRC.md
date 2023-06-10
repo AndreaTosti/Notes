@@ -90,7 +90,7 @@ Edit the file /etc/hosts with a text editor, e.g. `vi /etc/hosts`, by adding the
 ###  4.2. <a name='dnsmasqapproach'></a>dnsmasq approach
 
 ####  4.2.1. <a name='DisablefirewallandNATrulessetbyFortiClientVPN'></a>Disable firewall and NAT rules set by FortiClient VPN
-In our case, the client has many VPN clients installed. These include FortiClient VPN, which compromises the normal functioning of DNS. We will therefore follow some workarounds found online (source: [StackOverflow](https://stackoverflow.com/a/73956467/15478600));
+In our case, the client has many VPN clients installed. These include FortiClient VPN, which compromises the normal functioning of DNS. We will therefore follow some workarounds found online (source: [StackOverflow](https://stackoverflow.com/a/73956467/15478600), the problem is also present elsewhere, see [this github issue](https://github.com/canonical/multipass/issues/2680#issuecomment-1244049243));
 
 FortiClient VPN enables the `pf` firewall + NAT DNS Redirect; We can confirm that by executing the following:
 
