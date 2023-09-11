@@ -58,7 +58,7 @@ To allow external clients to contact the OpenShift API on port 6443, incoming tr
 - Access the VM via SSH:
 Open Windows Powershell and execute the following:
 ```
-ssh -i ~/.crc/machines/crc/id_edcsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null core@127.0.0.1 -p 2222
+ssh -i ~/.crc/machines/crc/id_ecdsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null core@127.0.0.1 -p 2222
 ```
 - Once inside, execute these commands
 ```
